@@ -1,1 +1,30 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  background-color: gray;
+}
 
+.navbar {
+  background-color: black;
+  color: black;
+  padding: 0 16px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.card {
+  border-radius: 20px;
+  border: 0px;
+  width:18rem;
+}
+
+.card-img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.container {
+  padding-top: 10px;
+  text-align: center;
+}
