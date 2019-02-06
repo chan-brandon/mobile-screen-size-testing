@@ -6,18 +6,17 @@ const request = require('request');
 const bodyParser = require('body-parser');
 
 app.get("/", function(req, response){
-  response.send("Hello, world!");
+  response.sendFile(__dirname + "/index.html");
 });
 
 app.get("/contact", function(req, response){
-  response.send("This is a contact page!");
+  response.sendFile(__dirname + "/contact.html");
 });
 
 app.get("/about", function(req,response){
-  response.send("Brandon owns this website!");
+  response.sendFile(__dirname + "/about.html");
 });
 
 app.get("/movie", function(req, response){
-  response.send("This is a testing page.");
+  response.sendFile(__dirname + "/movie.html");
 });
- 
